@@ -7,7 +7,7 @@ function throttle(f, ms) {
         if (isThrottle) {
             savedArgs = args;
             savedThis = this;
-
+            console.log();
             return;
         }
 
